@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Systems\" />
+    <Folder Include="Managers\" />
+    <Folder Include="Components\" />
+    <Folder Include="Rendering\" />
+    <Folder Include="Providers\" />
+    <Folder Include="Skia\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Args\" />
+    <Folder Include="Collections\" />
+    <Folder Include="Settings\" />
+    <Folder Include="Animations\" />
+    <Folder Include="Collisions\" />
+    <Folder Include="UI\" />
+    <Folder Include="States\" />
+    <Folder Include="TimerTasks\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Unity" Version="5.11.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Args\SceneChangedArgs.s" />
+  </ItemGroup>
+</Project>

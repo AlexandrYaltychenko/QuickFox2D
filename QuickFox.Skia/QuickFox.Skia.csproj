@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QuickFox\QuickFox.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="1.68.1.1" />
+    <PackageReference Include="SkiaSharp.Svg" Version="1.60.0" />
+    <PackageReference Include="SkiaSharp.Extended" Version="1.60.0" />
+    <PackageReference Include="Unity" Version="5.11.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Rendering\" />
+    <Folder Include="Graphics\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Args\" />
+    <Folder Include="Components\" />
+  </ItemGroup>
+</Project>
